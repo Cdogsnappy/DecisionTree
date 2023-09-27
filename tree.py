@@ -256,6 +256,7 @@ def q_7(d):
         generateTree(root,training_data[:val])
         n_err.append(run_test_set(root,test_data))
         n_tree_size.append(tree_size(root))
+        plot.title("n = " + str(val))
         visualizeBoundary(d, root)
 
     plot.plot(n,n_err)
@@ -292,7 +293,7 @@ def q_5():
     list_splits(root2,0)
 def main():
     # Use a breakpoint in the code line below to debug your script.
-    q_5()
+    q_7()
 
 
 # Press the green button in the gutter to run the script.
