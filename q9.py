@@ -40,10 +40,8 @@ def test(test_set,tree):
     tree.predict(test_set)
 
 def main():
-    # Use a breakpoint in the code line below to debug your script.
     q_9()
 
 
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     main()

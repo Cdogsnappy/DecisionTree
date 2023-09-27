@@ -292,11 +292,9 @@ def q_5():
     generateTree(root2, e)
     list_splits(root2,0)
 def main():
-    # Use a breakpoint in the code line below to debug your script.
     q_7()
 
 
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     main()
 

@@ -41,11 +41,9 @@ def gen_set():
 def gen_noisy_set(sig):
     return np.random.normal(0,sig,size=100) + np.random.uniform(0,np.pi,size=100)
 def main():
-    # Use a breakpoint in the code line below to debug your script.
     q_10()
 
 
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     main()
 
